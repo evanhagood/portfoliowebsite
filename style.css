@@ -1,0 +1,49 @@
+#hero-section {
+  background-image: url('resources/img/city-banner.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-text {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+#hero-headshot {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.skills-logo {
+  height: 90px;
+  width: 90px;
+}
+
+.skills-text {
+  padding-top: 3px;
+  font-size: 20px;
+}
+
+/* colors here are for debugging purposes, no color scheme chosen yet */
+#mission-section {
+  background-color: yellow;
+}
+
+#skills-section {
+  background-color: red;
+}
+
+#contact-section {
+  background-color: green;
+}
+
+#footer-section a {
+  text-decoration: none;
+}
